@@ -1,0 +1,72 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Turismo</title>
+    <link rel="stylesheet" href="{% static 'estados/style.css' %}">
+</head>
+<body>
+    <header class="menu">
+        <nav>
+            <h1>Norte/Nordeste</h1>
+            <ul class="lista">
+                <li>
+                    <a href="{%url 'index'%}">Norte</a>
+                </li>
+                <li>
+                    <a href="{%url 'nordeste'%}">Nordeste</a>
+                </li>
+            </ul>
+          </nav>
+    </header>
+        <br>
+        <h1>Região Norte</h1>
+        <div class="main">
+            <div class="content">
+                <h1>Acre</h1>
+                <br>
+                <p class="text">
+                    O Acre é um dos sete estados situados na região Norte do Brasil. Sua capital é Rio Branco e a sigla AC.A população acriana é de 830 mil habitantes, conforme a estimativa do IBGE (Instituto Brasileiro de Geografia e Estatística) para 2022.
+                </p>
+                <br>
+                <img src="{% static 'estados/imagens/acre.jpg'%}" alt="" class="Foto">
+                <br>
+                <br>
+                <p class="text">
+                    A área do Acre chega a 164.173,429 km2, de acordo com o IBGE. Hoje, há 5,05 habitantes quilômetro quadrado do estado.As cidades mais populosas, além da capital Rio Branco, são Cruzeiro do Sul, Feijó, Tarauacá e Sena Madureira. No total, o território abriga 22 municípios.
+                </p>
+                <br>
+                <br>
+                <h1>Roraima</h1>
+                <br>
+                <p class="text">Roraima é o estado mais setentrional do território brasileiro. Sua população é a menor do país, concentrando-se na capital. O estado é um grande produtor de arroz e soja.</p>
+                <img src="{% static 'estados/imagens/roraima.jpg'%}" alt="" class="Foto">
+                <br>
+                <br>
+                <p class="text">A economia do Estado de Roraima é baseada, principalmente, na produção de arroz. Também merecem destaque as lavouras de feijão, milho, mandioca e de banana. É explorada em pequena escala a pecuária bovina, suína e, ainda, a criação de aves.Em Roraima ficam abundantes reservas minerais, como diamantes, cassiterita, bauxita, granito e cobre.</p>
+                <br>
+                <br>
+                <h1>Amapá</h1>
+                <br>
+                <p class="text">
+                    O Estado do Amapá está localizado na região Norte do Brasil. A capital é Macapá e a sigla AP.  A maior parte do território do Amapá está coberta pela Floresta Amazônica. Ao todo, 73% da área do estado são cobertos pela floresta.</p>
+    
+                <img src="{% static 'estados/imagens/amapa.jpg'%}" alt="" class="Foto">
+                <br>
+                <br>
+                <p class="text">As principais atividades econômicas do Amapá são o extrativismo mineral e vegetal. A economia é mercada pela extração de castanha-do-pará, palmito e madeira.
+                    São abundantes as riquezas minerais, com destaque para o ouro, manganês, calim e granito.
+                    No setor agropecuário, há produção de arroz e mandioca é significativa. Também crescem os rebanhos bovino e bubalino. A pesca é de suma importância para a economia local.</p>
+                
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+           
+</body>
+</html>

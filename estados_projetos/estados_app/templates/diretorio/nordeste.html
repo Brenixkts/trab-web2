@@ -1,0 +1,71 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Turismo</title>
+    <link rel="stylesheet" href="{% static 'estados/style.css' %}">
+</head>
+<body>
+    <header class="menu">
+        <nav>
+            <h1>Norte/Nordeste</h1>
+            <ul class="lista">
+                <li>
+                    <a href="{%url 'index'%}">Norte</a>
+                </li>
+                <li>
+                    <a href="{%url 'nordeste'%}">Nordeste</a>
+                </li>
+            </ul>
+          </nav>
+    </header>
+        <br>
+        <h1>Região Nordeste</h1>
+        <div class="main">
+            <div class="content">
+                <h1>Alagoas</h1>
+                <br>
+                <p class="text">
+                    O estado de Alagoas, na Região Nordeste, é um dos menores em área do país. Possui hoje 3,35 milhões de habitantes, sendo a sua capital, Maceió, o município mais populoso.
+                </p>
+                <br>
+                <img src="{% static 'estados/imagens/alagoas.jpg'%}" alt="" class="Foto">
+                <br>
+                <br>
+                <p class="text">
+                    Alagoas é um estado brasileiro que compõe a Região Nordeste, com capital no município de Maceió. Seu relevo é formado por depressões e planaltos, e os climas encontrados no estado são semiárido e tropical. A atual população alagoana é de pouco mais de 3,35 milhões de habitantes, vivendo a maioria nas cidades. Atualmente, a economia alagoana se destaca pela produção de cana-de-açúcar e pela indústria ligada a esse cultivo.
+                </p>
+                <br>
+                <br>
+                <h1>Bahia</h1>
+                <br>
+                <p class="text">A Bahia é um estado do Nordeste do Brasil, com capital em Salvador. Reúne a maior população regional, de quase 15 milhões de habitantes, e uma ampla diversidade cultural.</p>
+                <img src="{% static 'estados/imagens/bahia.jpg'%}" alt="" class="Foto">
+                <br>
+                <br>
+                <p class="text">A população baiana é de 14,9 milhões de habitantes, a quarta maior do Brasil. O município de Salvador é a capital estadual e desempenhou o papel também de primeira capital brasileira entre os anos de 1549 e 1763. A geografia do estado é caracterizada pelas planícies e depressões, bem como por dois tipos climáticos dominantes, o tropical e o semiárido. A economia baiana é a principal do Nordeste e se volta para o setor terciário e para a indústria de transformação.</p>
+                <br>
+                <br>
+                <h1>Paraiba</h1>
+                <br>
+                <p class="text">
+                    A Paraíba é um estado brasileiro da Região Nordeste, com capital em João Pessoa. Está situada na área de abrangência da Depressão Sertaneja e do Planalto da Borborema.</p>
+    
+                <img src="{% static 'estados/imagens/paraiba.jpg'%}" alt="" class="Foto">
+                <br>
+                <br>
+                <p class="text">
+                    Situado entre o Ceará, Rio Grande do Norte e Pernambuco, o estado é composto pelas formas de relevo que caracterizam a Depressão Sertaneja e o Planalto da Borborema, além da planície litorânea a leste.
+                    Os dois tipos climáticos predominantes são o semiárido e o tropical quente e úmido. A economia paraibana é liderada pelo setor terciário, seguido da indústria, sobretudo da construção civil e da produção de couros e calçados. Na agricultura, a cana-de-açúcar se sobressai.</p>
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+           
+</body>
+</html>
